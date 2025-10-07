@@ -86,7 +86,7 @@ def evaluate_model(y_true, y_pred, model_name):
 evaluate_model(y_test, y_pred_rf, 'Random Forest')
 evaluate_model(y_test, y_pred_xgb, 'XGBoost')
 
-# --- Corrected Feature Importance Cell ---
+# Feature Importance 
 
 # Keep column names after VarianceThreshold
 var_feature_names = X.columns[var_thresh.get_support()]
